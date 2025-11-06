@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class students {
+    public:
+    student() {
+        cout<<"constructor called"<<endl;
+    }
+    student() {
+        cout<<"destructor called!"<<endl;
+    }
+    void display()
+    {
+        cout<<"Inside display function"<<endl;
+    }
+};
+int main()
+{
+    cout<<"creating objectdl"<<endl;
+    student s1;
+    s1;s1.display();
+    cout<<"exciting main..."endl;
+    return 0;
+}
